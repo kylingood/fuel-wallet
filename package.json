@@ -1,0 +1,20 @@
+{
+  "name": "fuelweb3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/start.js start",
+    "nftCheckStart": "node src/start.js nftCheckStart",
+    "bearCheckStart": "node src/start.js bearCheckStart",
+    "redeemStart": "node src/start.js redeemStart",
+    "redeemCheckStart": "node src/start.js redeemCheckStart"
+  },
+  "dependencies": {
+    "guzibiji": "^1.0.0",
+    "web3": "^4.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
